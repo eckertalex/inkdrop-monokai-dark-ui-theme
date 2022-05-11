@@ -1,8 +1,8 @@
 {
-  "name": "default-dark-ui",
+  "name": "monokai-dark-ui",
   "version": "2.1.0",
   "theme": "ui",
-  "description": "Default Dark UI Theme for Inkdrop",
+  "description": "Monokai Dark UI Theme for Inkdrop",
   "styleSheets": [
     "theme.min.css"
   ],
@@ -14,7 +14,7 @@
     "inkdrop",
     "markdown"
   ],
-  "author": "Takuya Matsuyama<t@inkdrop.app>",
+  "author": "Alexander Eckert",
   "license": "MIT",
   "devDependencies": {
     "better-console": "^1.0.1",
