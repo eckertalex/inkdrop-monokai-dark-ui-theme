@@ -1,44 +1,45 @@
 /*******************************
      User Global Variables
 *******************************/
-@fontPath  : 'inkdrop://default-light-ui/styles/themes/default/assets/fonts';
-@headerFont        : -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
-@pageFont          : -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
-@importGoogleFonts : false;
+@fontPath: "inkdrop://default-light-ui/styles/themes/default/assets/fonts";
+@headerFont: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial,
+  sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+@pageFont: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial,
+  sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+@importGoogleFonts: false;
 @useCustomScrollbars: false;
 
-@primaryColor: #6987AF;
-@primaryColorFocus: #6987AF;
+@primaryColor: @monokaiRed;
+@primaryColorFocus: @monokaiLightRed;
 @linkHoverColor: @primaryColor;
-
 
 /*-------------------
       Side Bar
 --------------------*/
-@sidebarBackground     : @pageBackground;
-@sidebarMenuItemActiveBackground: rgba(0, 0, 0, 0.2);
+@sidebarBackground: @pageBackground;
+@sidebarMenuItemActiveBackground: @monokaiInteraction;
 @sidebarMenuSectionColor: @lightTextColor;
-@sidebarMenuItemColor  : @textColor;
-@sidebarMenuActionColor : @lightTextColor;
-@sidebarMenuActionHoverColor : @primaryColorFocus;
-@sidebarSyncStatusViewBackground: #26292C;
+@sidebarMenuItemColor: @textColor;
+@sidebarMenuActionColor: @lightTextColor;
+@sidebarMenuActionHoverColor: @primaryColorFocus;
+@sidebarSyncStatusViewBackground: @monokaiBackgroundWeak;
 @sidebarSyncStatusViewTextColor: @textColor;
 @sidebarSyncStatusViewDetailColor: @lightTextColor;
 @sidebarScrollbarWidth: 6px;
-@sidebarScrollbarTrackBackground: rgba(0,0,0,0.02);
-@sidebarScrollbarThumbBackground: rgba(255,255,255,0.1);
+@sidebarScrollbarTrackBackground: rgba(0, 0, 0, 0.02);
+@sidebarScrollbarThumbBackground: rgba(255, 255, 255, 0.1);
 
 /*-------------------
       Scroll Bar
 --------------------*/
 @scrollbarWidth: 6px;
-@scrollbarTrackBackground: rgba(0,0,0,0.02);
-@scrollbarThumbBackground: rgba(255,255,255,0.1);
+@scrollbarTrackBackground: rgba(0, 0, 0, 0.02);
+@scrollbarThumbBackground: rgba(255, 255, 255, 0.1);
 
 /*-------------------
       Note List Bar
 --------------------*/
-@noteListBarBackground: #34393D;
+@noteListBarBackground: @monokaiBackgroundDefault;
 @noteListBarPinnedSectionHeaderBackground: rgba(255, 255, 255, 0.05);
 @noteListBarPinnedSectionHeaderBorderBottom: 1px solid rgba(255, 255, 255, 0.1);
 @noteListBarPinnedSectionFooterBorderBottom: 4px solid rgba(255, 255, 255, 0.2);
@@ -46,20 +47,20 @@
 @noteListViewItemSeparatorBorder: 1px solid @white;
 @noteListViewItemDateColor: @primaryColor;
 @noteListViewItemTagColor: @primaryColor;
-@noteListViewItemActiveBackground: #6987AF80;
+@noteListViewItemActiveBackground: @monokaiInteraction;
 @noteListViewItemActiveColor: @textColor;
 @noteListViewItemActiveDateColor: @textColor;
 @noteListViewItemActiveTagColor: @textColor;
-@noteListViewItemFocusInnerShadow: inset 0 0 4px rgba(0,0,0,0.8);
+@noteListViewItemFocusInnerShadow: inset 0 0 4px rgba(0, 0, 0, 0.8);
 @noteSearchBarBackground: @noteListBarBackground;
 @noteSearchBarBorderBottom: 1px solid @white;
-@noteSearchBarInputBorder: none;
+@noteSearchBarInputBorder: 2px solid @monokaiBorder;
 @noteSearchBarInputBackground: @inputBackground;
 
 /*-------------------
       Header Note Menu
 --------------------*/
-@headerNoteMenuBackground: transparent;
+@headerNoteMenuBackground: @monokaiBackgroundDefault;
 @headerNoteMenuColor: @lightTextColor;
 @headerNoteMenuActionItemActiveBackground: rgba(49, 204, 236, 0.3);
 @headerNoteMenuActionItemActiveBorder: 1px solid rgba(49, 204, 236, 0.8);
@@ -70,21 +71,21 @@
 /*-------------------
       Preferences
 --------------------*/
-@preferencesSidebarBackground: @white;
-@preferencesSidebarItemActiveBackground: #6987AF40;
-@preferencesViewBackground: @offWhite;
+@preferencesSidebarBackground: @monokaiBackgroundDefault;
+@preferencesSidebarItemActiveBackground: @monokaiInteraction;
+@preferencesViewBackground: @monokaiBackgroundStrong;
 
 /*-------------------
       Task Icons
 --------------------*/
-@taskIconActive: darkgray;
-@taskIconOnHold: orange;
-@taskIconCompleted: limegreen;
-@taskIconDropped: lightcoral;
+@taskIconActive: @monokaiLightGrey;
+@taskIconOnHold: @monokaiLightOrange;
+@taskIconCompleted: @monokaiLightGreen;
+@taskIconDropped: @monokaiLightRed;
 
 /*-------------------
   Task Progress View
 --------------------*/
 @taskProgressViewBackgroundColor: rgba(0, 0, 0, 0.3);
 @taskProgressViewForegroundColor: rgba(255, 255, 255, 0.6);
-@taskProgressViewCompletedColor: rgb(50, 205, 50);
+@taskProgressViewCompletedColor: @monokaiLightGreen;

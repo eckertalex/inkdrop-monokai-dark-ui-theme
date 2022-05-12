@@ -1,10 +1,18 @@
-# Monokai Dark UI Theme for Inkdrop
+# Monokai Dark UI
 
-## Which files to edit
+> Monokai Dark UI theme for Inkdrop.
 
-- `src/site/globals/site.variables`
-  - Variables for Inkdrop-specific components
-- `src/site/globals/site.overrides`
-  - Declarations of CSS variables
-- `src/themes/default/globals/site.variables`
-  - Common variables
+# Install
+
+```
+ipm install monokai-dark-ui
+```
+
+## Credits/Disclaimer
+
+Based on VSCode theme [Monokai Pro](<[monokai.pro](https://monokai.pro/)>). I have no affiliation with that project.
+
+## 📝 License
+
+Copyright &copy; 2022 [eckertalex](https://github.com/eckertalex).<br /> This project is
+[MIT](https://github.com/eckertalex/inkdrop-monokai-dark-ui-theme/blob/master/LICENSE) licensed.

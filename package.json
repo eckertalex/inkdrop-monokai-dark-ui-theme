@@ -1,6 +1,6 @@
 {
   "name": "monokai-dark-ui",
-  "version": "2.1.0",
+  "version": "0.1.0",
   "theme": "ui",
   "description": "Monokai Dark UI Theme for Inkdrop",
   "styleSheets": [
@@ -15,6 +15,7 @@
     "markdown"
   ],
   "author": "Alexander Eckert",
+  "repository": "https://github.com/eckertalex/inkdrop-monokai-dark-ui-theme",
   "license": "MIT",
   "devDependencies": {
     "better-console": "^1.0.1",
